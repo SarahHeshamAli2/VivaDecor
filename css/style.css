@@ -1,0 +1,172 @@
+.VLogo {
+border: 4px solid black;
+padding: 2px;
+border-radius: 5px;
+border-right: unset;
+
+}
+
+
+body {
+    font-family: "Inter", system-ui;
+
+}
+.nav-item a {
+    margin: 0 7px;
+}
+h1 {
+    font-size: 6rem;
+}
+
+.Number h3 , .Number span {
+    font-size: 4.3rem;
+    color: #545454;
+    font-weight: 400;
+    margin: 0;
+}
+
+.Number p {
+    color: #545454;
+}
+.movingItems {
+    right: 100px;
+}
+.movingArrow {
+    right: -20px;
+}
+.emptySquare {
+    z-index: -1;
+    top: -15px;
+    left: -20px;
+
+}
+.ourServices .specialText,.innerDreamLeft h2 {
+    position: relative;
+    font-size: 50px;
+}
+.ourServices .specialText {
+    margin-top: 100px;
+}
+
+.ourServices .specialText::before {
+    content:  "";
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+        left: -40px;}
+
+
+        .accordion-button:not(.collapsed) {
+            background-color: unset;
+        }
+        .accordion-button:focus {
+            box-shadow: unset;
+        }
+
+        .accordion-button::after {
+            background-image: url("../assets/plus-large-svgrepo-com.svg");
+        }
+
+        .accordion-button:not(.collapsed)::after {
+            background-image: url('../assets/minus-svgrepo-com.svg');
+        }
+
+        .leftDegn p {
+            font-size: 24px;
+            color: #545454;
+            line-height: 39.65px;
+        }
+        .designIcon {
+            width: 100px;
+            height: 70px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        .icon i {
+            width: 45px;
+            height: 45px;
+            background-color: black;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .icon::after {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 102px;
+            border-left:1px solid #9B9B9B;
+            left: 50%;
+            margin: 30px 0;
+        }
+
+        .leftDesignInner .iconsAndText:last-child .icon::after  {
+
+            content: none;
+
+        }
+
+        .icon {
+            margin: 15px 0;
+        }
+
+        .layerPeople img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .layerPeople span{
+            font-size: 12px;
+            color: #929292;
+        }
+
+        .layer {
+            top: 25%;
+            left: 15%;
+           
+        }
+        .layerBox {
+            margin: 0 10px;
+            width: 35%;
+        }
+
+        .arrows i {
+            background-color: #F1F1F1;
+        }
+        .iCons i {
+            margin: 0 4px;
+            background-color: #313131;
+            padding: 8px;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+.subscribeToLetter {
+    bottom: 90%;
+    left: 20%;
+    color: black;
+    z-index: 2222222;
+
+}
+
+.sbsBtn {
+    top: 25%;
+    right: 10px;
+}
+
+.envLetter {
+    left: 5px;
+    top: 35%;
+
+}
+
+footer {
+    margin-top: 180px;
+}
+

@@ -1,0 +1,151 @@
+/* x-small screens */
+
+ :root {
+    --smallFont : 3rem
+ }
+@media screen and (max-width : 576px) {
+    .highMarginCol {
+        margin-bottom: 45px;
+    }
+h1 , .innerDreamLeft h2 {
+    font-size: var(--smallFont);
+}
+.movingArrow ,.movingItems {
+    right: 0;
+}
+.movingItems {
+    margin-top: 3rem !important;
+}
+.emptySquare {
+    left: -5px;
+}
+
+.highMarginRow {
+    margin-top: 300px;
+}
+
+.ourServices .specialText {
+    font-size: 35px;
+    padding: 5px !important;
+    margin: 10px !important;
+}
+.ourServices .specialText::before {
+    width: 25px;
+    left: -8px;
+}
+.ourCustomers  {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+.layer {
+    position: static !important;
+    display: block !important;
+}
+.layerBox {
+    width: 100%;
+    margin: 5px 0;
+}
+.subscribeToLetter {
+    position: static !important;
+    background-color: white ;
+    width: 100% !important;
+}
+.sbsBtn {
+    position: static !important;
+}
+.envLetter {
+    top: 22%;
+}
+}
+
+/* from small to lg screen */
+
+@media screen and (min-width : 577px) and (max-width :767px) {
+
+    .highMarginRow {
+        margin-top: 350px;
+
+    }
+    .movingItems {
+        right: 0;
+    }
+    .ourServices .specialText {
+        font-size: 35px;
+        padding: 5px !important;
+        margin: 10px !important;
+    }
+    .ourServices .specialText::before {
+        width: 25px;
+        left: -8px;
+    }
+
+    .layerBox {
+        width: 100%;
+        padding: 20px !important;
+    }
+    .layer {
+        left: 0;
+        padding: 10px !important;
+    }
+    .subscribeToLetter {
+        bottom: 95%;
+    }
+
+
+footer {
+    margin-top: 180px ;
+
+}
+
+}
+
+
+/* 768px  */
+
+
+@media  screen and (min-width:768px ) and (max-width : 1200px) {
+
+
+    
+    .Number h3 , .Number span , .innerDreamLeft h2{
+        font-size: 2.5rem;
+    }
+    .highMarginRow .col-md-2 {
+        margin: 0 20px;
+    }
+    .highMarginRow {
+        margin-top: 100px;
+    }
+    .ourServices .specialText {
+    margin: 0;
+    }
+
+    .ourServices .specialText::before {
+        width: 25px;
+        left: -8px;
+    }
+    .learn {
+        text-align: center;
+    }
+    h1 {
+        font-size: var(--smallFont);
+    }
+    .headerContent  .row {
+        justify-content: space-between;
+    }
+    .movingItems   {
+        right: 50px;
+    }
+    .layerBox {
+        width: 100%;
+    }
+    .layer {
+        top: 30%;
+    }
+    footer {
+        margin-top: 300px !important;
+    }
+}
